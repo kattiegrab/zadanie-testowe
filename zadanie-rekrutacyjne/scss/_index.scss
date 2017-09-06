@@ -4,12 +4,12 @@ body {
 	.about {
 		margin-top: 50px;
 		text-align: center;
+		.hover-wrapper:hover {
+			color: #caac8c;
+			cursor: pointer;
+		}
 		i.fa {
 			font-size: 60px;
-			&:hover {
-				color: #caac8c;
-				cursor: pointer;
-			}
 		}
 		h4 {
 			margin: 10px 0 10px;
@@ -18,31 +18,7 @@ body {
 			font-size: 14px;
 		}
 	}
-// Slider styles
-	.myslider {
-		.carousel-wrapper {
-			padding-top: 20px;
-	        width: 100%;
-	        overflow: hidden;
-	        height: 180px;
-	        position: relative;
-			.carousel-item {
-				display: flex;
-				margin: 20px;
-				.carousel-img {
-					width: 50%;
-					background-repeat: no-repeat;
-					background-size: 0/cover;
-				}
-				.carousel-text {
-					width: 50%;
-					background-color: #d6dadc;
-					font-size: 11px;
-					padding: 20px;
-				}
-			}
-		}
-	}
+
 // third section styles
 	.info-posts {
 		margin-bottom: 60px;
